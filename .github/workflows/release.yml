@@ -30,6 +30,7 @@ jobs:
       - run: |
           echo "@username:registry=https://npm.pkg.github.com" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_TOKEN }}" >> .npmrc
+          echo access=public >> .npmrc
 
       - name: Fetch latest commits
         run: git fetch --all
