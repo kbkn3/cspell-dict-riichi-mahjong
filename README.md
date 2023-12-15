@@ -2,6 +2,17 @@
 
 ## Overview
 
+[CSpell](https://github.com/streetsidesoftware/cspell)用のカスタム辞書
+
+このパッケージは麻雀のドメイン知識的な用語を日本語表記に合わせてCSpellで対応するためのカスタム辞書です。
+
+必要と思われる単語追加のPRを歓迎します。
+
+各プロダクト固有の単語はリポジトリ内の`cspell.json`でカスタムが可能です。
+
+<details>
+<summary>English</summary>
+
 Custom dictionary for [CSpell](https://github.com/streetsidesoftware/cspell).
 
 This package is a custom dictionary for CSpell to support mahjong domain knowledge terms in Japanese notation.
@@ -10,20 +21,19 @@ If you believe that additional words should be included, please submit a pull re
 
 Words that are specific to each product can be customized in `cspell.json` in the repository.
 
-<details>
-<summary>日本語</summary>
-    
-[CSpell](https://github.com/streetsidesoftware/cspell)用のカスタム辞書
-
-このパッケージは麻雀のドメイン知識的な用語を日本語表記に合わせてCSpellで対応するためのカスタム辞書です。
-
-必要と思われる単語追加のPRを歓迎します。
-
-各プロダクト固有の単語はリポジトリ内の`cspell.json`でカスタムが可能です。
 </details>
 
 ## Contents
 
+当リポジトリに含まれる辞書は下記の通り。
+
+- [game](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/game.txt): 麻雀ゲームの用語
+- [pro](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/pro.txt): 麻雀プロ団体名とMリーグチーム名
+- [rule](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/rule.txt): 麻雀のルール
+- [yaku](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/yaku.txt): 麻雀の役
+
+<details>
+<summary>日本語</summary>
 The dictionaries included in this repository are as follows:
 
 - [game](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/game.txt): Mahjong game terms
@@ -31,16 +41,6 @@ The dictionaries included in this repository are as follows:
 - [rule](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/rule.txt): Mahjong rules
 - [yaku](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/yaku.txt): Mahjong yaku
 
-<details>
-<summary>日本語</summary>
-    
-当リポジトリに含まれる辞書は下記の通り。
-
-- [game](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/game.txt): 麻雀ゲームの用語
-- [pro](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/pro.txt): 麻雀プロ団体名とMリーグチーム名
-- [rule](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/rule.txt): 麻雀のルール
-- [yaku](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/.cspell/yaku.txt): 麻雀の役
-    
 </details>
 
 ## Prepare
@@ -71,29 +71,6 @@ See [CSpell Docs](http://cspell.org/configuration/) for detailed CSpell configur
 
 ## How to use CSpell
 
-Consider 3 different methods of operation for your team.
-
-- VScode extension
-  - Pros: You can use it simply by installing an extension to VSCode.
-  - Cons: Only the code you are editing will be spell checked, not the entire repository.
-- CSpell-CLI
-  - Pros: fast working
-  - Cons: Not aware of spelling errors while coding.
-- CSpell-ESLint
-  - Pros:
-    - WARN underlines on the editor
-    - Can be implemented by adding to existing eslint configuration.
-    - Underlines can be added to the dictionary for each repository via the editor's underlining quick-fix.
-  - Cons:
-    - `pnpm run lint` after adding CSpell system settings takes a long time.
-- ~Github Actions~
-  - Currently no machine users have been added to this repository, so it is not available for Github Actions. If requested, this will be addressed.
-
-It is recommended that VSCode and CSpell-CLI be used together.
-The use of CSpell-CLI and CSpell-ESLint together is deprecated due to their overlapping roles.
-
-<details>
-<summary>日本語</summary>
 チームに合わせて3つの運用方法から選んでください。
 
 - VScode 拡張機能
@@ -114,6 +91,29 @@ The use of CSpell-CLI and CSpell-ESLint together is deprecated due to their over
 
 VSCode と CSpell-cli は併用することを推奨します。
 CSpell-cli と CSpell-ESLint の併用は役割が被るため非推奨です。
+
+<details>
+<summary>English</summary>
+Consider 3 different methods of operation for your team.
+
+- VScode extension
+  - Pros: You can use it simply by installing an extension to VSCode.
+  - Cons: Only the code you are editing will be spell checked, not the entire repository.
+- CSpell-CLI
+  - Pros: fast working
+  - Cons: Not aware of spelling errors while coding.
+- CSpell-ESLint
+  - Pros:
+    - WARN underlines on the editor
+    - Can be implemented by adding to existing eslint configuration.
+    - Underlines can be added to the dictionary for each repository via the editor's underlining quick-fix.
+  - Cons:
+    - `pnpm run lint` after adding CSpell system settings takes a long time.
+- ~Github Actions~
+  - Currently no machine users have been added to this repository, so it is not available for Github Actions. If requested, this will be addressed.
+
+It is recommended that VSCode and CSpell-CLI be used together.
+The use of CSpell-CLI and CSpell-ESLint together is deprecated due to their overlapping roles.
 </details>
 
 ## Installation
