@@ -27,9 +27,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      - run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_TOKEN }}" >> .npmrc
-          echo access=public >> .npmrc
 
       - name: Release
         env:
