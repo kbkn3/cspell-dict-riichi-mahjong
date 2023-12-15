@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kbkn3/cspell-dict-riichi-mahjong/compare/v1.0.1...v1.1.0) (2023-12-15)
+
+
+### Features
+
+* **ja-en:** あ行 ([afe3a71](https://github.com/kbkn3/cspell-dict-riichi-mahjong/commit/afe3a71a16889dedbddaab0f234df1cc38e646d7))
+
 ## [1.0.1](https://github.com/kbkn3/cspell-dict-riichi-mahjong/compare/v1.0.0...v1.0.1) (2023-12-15)
 
 
