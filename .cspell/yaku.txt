@@ -1,0 +1,64 @@
+# WRC 役一覧より(https://static1.squarespace.com/static/634a7884c297a25f06589b79/t/63c82bff2245392703c3a3cb/1674062885858/WRC_Yaku_1_5_3.pdf)
+# From the WRC Yaku List
+
+# 1han
+riichi
+menzen
+tsumo
+menzentsumo
+ippatsu
+tanyao
+pinfu
+iipeiko
+yakuhai
+haitei
+hotei
+rinshan
+kaiho
+chankan
+renho
+chiho
+tenhou
+dora
+kandora
+uradora
+
+# 2han
+chiitoitsu
+ikkitsukan
+ittsu
+sanshoku
+dojun
+sanshokudojun
+doko
+sanshokudoko
+chanta
+sananko
+sankantsu
+toitoi
+honroto
+shosangen
+
+# 3han
+ryanpeiko
+honitsu
+junchan
+
+# 6han
+chinitsu
+
+# yakuman
+kokushi
+muso
+kokushimuso
+churen
+poto
+churenpoto
+suanko
+sukantsu
+ryuiiso
+chinroto
+tsuiiso
+daisangen
+shosushii
+daisushii

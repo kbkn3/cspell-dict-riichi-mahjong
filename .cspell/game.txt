@@ -1,0 +1,10 @@
+# ゲーム名
+# name of games
+mjsoul
+mahjongsoul
+tenhou
+
+# AI関連
+mjai
+motal
+akochan

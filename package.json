@@ -1,0 +1,23 @@
+{
+  "name": "@kbkn3/cspell-dict-riichi-mahjong",
+  "version": "1.0.0",
+  "description": "cspell custom dictionary for riichi mahjong",
+  "homepage": "https://github.com/kbkn3/cspell-dict-riichi-mahjong#readme",
+  "bugs": {
+    "url": "https://github.com/kbkn3/cspell-dict-riichi-mahjong/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbkn3/cspell-dict-riichi-mahjong.git"
+  },
+  "license": "MIT",
+  "author": "kbkn3",
+  "contributors": [
+    {
+      "name":"kbkn3"
+    }
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

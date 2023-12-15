@@ -1,0 +1,69 @@
+# 行為
+agari
+agaries
+
+houju
+houjus
+
+huro
+shouminkan
+daiminkan
+ankan
+
+chii
+pon
+kan
+kakan
+
+# その他行為
+tsumogiri
+
+# ゲーム構成
+tonpuu
+tonnan
+hanchan
+
+kyoku
+
+yonma
+sanma
+
+# 途中流局
+suukaikan
+sanchahou
+suufonrenda
+kyuushukyuhai
+
+# 席
+toncha
+nancha
+shacha
+pecha
+
+higashi
+minami
+nishi
+kita
+
+kamicha
+toimen
+shimocha
+
+# 面子構成
+mentsu
+shuntsu
+toitsu
+
+# 点数
+mangan
+haneman
+sanbaiman
+kazoeyakuman
+yakuman
+honba
+kiriage
+
+# その他
+paihu
+tehai
+haipai
