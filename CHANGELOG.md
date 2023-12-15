@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/kbkn3/cspell-dict-riichi-mahjong/compare/v1.4.4...v1.4.5) (2023-12-15)
+
+
+### Bug Fixes
+
+* release workflow ([8e1b06b](https://github.com/kbkn3/cspell-dict-riichi-mahjong/commit/8e1b06b4fb92967c1a29741be20191cdd072eafb))
+
 ## [1.4.4](https://github.com/kbkn3/cspell-dict-riichi-mahjong/compare/v1.4.3...v1.4.4) (2023-12-15)
 
 
