@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - run: |
-          echo "@username:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "@kbkn3:registry=https://npm.pkg.github.com" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
 
       - name: Release
