@@ -10,6 +10,10 @@
 
 各プロダクト固有の単語はリポジトリ内の`cspell.json`でカスタムが可能です。
 
+**kbkn3個人としてはローマ字表記を推奨するものではありません。各用語をWRC標準の英語で置き換えることを推奨しています。**
+
+WRC標準の英語と日本語の対応表は[こちら](https://github.com/kbkn3/cspell-dict-riichi-mahjong/blob/master/docs/ja-en.md)。
+
 <details>
 <summary>English</summary>
 
