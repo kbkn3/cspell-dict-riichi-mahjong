@@ -20,9 +20,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "scripts": {
-    "prepublish": "rm -rf dist && npm run build"
-  },
   "release": {
     "plugins": [
       "@semantic-release/commit-analyzer",
