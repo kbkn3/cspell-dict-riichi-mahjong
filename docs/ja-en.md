@@ -8,6 +8,8 @@ Under construction.
 
 - [リーチ麻雀用語の日本語と英語の対応表](#リーチ麻雀用語の日本語と英語の対応表)
   - [あ行](#あ行)
+- [か行](#か行)
+- [さ行](#さ行)
 
 ## あ行
 
@@ -33,6 +35,10 @@ Under construction.
 | オカ                     | oka | WRCではオカは採用されていない。 |
 | 押し引き（おしひき）     |      |                |
 | 親                       | the east player | アメリカでは「oya」や「dealer」が当てられるのが一般的のようだ[^2] |
+
+# か行
+
+# さ行
 
 [^1]: Japanese mahjong - Wikipedia <https://en.wikipedia.org/wiki/Japanese_mahjong>
 [^2]: Barticles’s Japanese Mahjong Guide - USPML : the United States Professional Mahjong League <https://uspml.com/documents/japanese_mahjong_guide_v103.pdf>
