@@ -8,7 +8,7 @@
 
 必要と思われる単語追加のPRを歓迎します。
 
-各プロダクト固有の単語はリポジトリ内の`cspell.json`でカスタムが可能です。
+各プロダクト固有の単語はリポジトリ内の`cspell.json`/`cspell.yaml`でカスタムが可能です。
 
 **kbkn3個人としてはローマ字表記を推奨するものではありません。各用語をWRC標準の英語で置き換えることを推奨しています。**
 
@@ -55,13 +55,13 @@ The dictionaries included in this repository are as follows:
     npm install -D cspell-dict-riichi-mahjong
     ```
 
-2. Create cspell.json to match your repository.
+2. Create `cspell.json` / `cspell.yaml` to match your repository.
 
     ```json
     {
       "version": "0.2",
       "language": "en",
-      "import": ["cspell-dict-riichi-mahjong/cspell.json"],
+      "import": ["cspell-dict-riichi-mahjong/cspell.yaml"],
       // Add repository-specific terms that are missing from existing dictionaries.
       "words": [
         "chii-nya!",
@@ -134,7 +134,8 @@ The use of CSpell-CLI and CSpell-ESLint together is deprecated due to their over
 1. `npm install -g cspell` or `npm install cspell`
 2. Register npm-script.
    example:
-    ```json
+
+    ```package.json
       "scripts": {
           "spellcheck": "pnpm cspell ./src --cache --no-progress --config ./cspell.json || exit 0",
           "spellcheck-all": "pnpm cspell ./src --no-progress --config ./cspell.json || exit 0"
@@ -142,19 +143,24 @@ The use of CSpell-CLI and CSpell-ESLint together is deprecated due to their over
     ```
 
 3. (Optional) If you want automatic spell checking on every commit, consider installing [husky](https://github.com/typicode/husky), etc.
-   Reference: https://zenn.dev/luvmini511/articles/ade1f0e4b64770
+   Reference: <https://zenn.dev/luvmini511/articles/ade1f0e4b64770>
 
 ### ESLint
 
 1. Install @cspell/eslint-plugin as a dev-dependency
+
     ```bash
     npm install --save-dev @cspell/eslint-plugin
     ```
+
 2. Add to it to .eslintrc.json
+
     ```json
     "extends": ["plugin:@cspell/recommended"]
     ```
+
 3. Example:
+
    ```json
    {
     "plugins": ["@cspell"],

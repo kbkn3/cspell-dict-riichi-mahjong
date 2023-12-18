@@ -56,5 +56,8 @@
   },
   "volta": {
     "node": "18.19.0"
+  },
+  "dependencies": {
+    "@cspell/cspell-types": "^8.1.3"
   }
 }
