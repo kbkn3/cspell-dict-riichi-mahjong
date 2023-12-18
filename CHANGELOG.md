@@ -1,3 +1,10 @@
+## [1.4.12](https://github.com/kbkn3/cspell-dict-riichi-mahjong/compare/v1.4.11...v1.4.12) (2023-12-18)
+
+
+### Bug Fixes
+
+* add types and change json to yaml ([1894cea](https://github.com/kbkn3/cspell-dict-riichi-mahjong/commit/1894ceac86be231ff144c5c8b48c0386d7f1a28c))
+
 ## [1.4.11](https://github.com/kbkn3/cspell-dict-riichi-mahjong/compare/v1.4.10...v1.4.11) (2023-12-15)
 
 
