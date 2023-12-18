@@ -1,0 +1,43 @@
+{
+  version: "0.2",
+  language: "en",
+  ignorePaths: ["node_modules/**"],
+  dictionaries: ["en_US","softwareTerms","typescript","node","php","go","html","css","bash","fonts","filetypes","npm"],
+  languageSettings: [
+    {
+        # VSCode languageId. i.e. typescript, java, go, cpp, javascript, markdown, latex
+        # * will match against any file type.
+        languageId: "*",
+        # Language locale. i.e. en-US, de-AT, or ru. * will match all locales.
+        # Multiple locales can be specified like: "en, en-US" to match both English and English US.
+        locale: "en,en-US",
+        # List of dictionaries to enable by name in `dictionaryDefinitions`
+        dictionaries: ["game","pro","rule","yaku"],
+        # Dictionary definitions can also be supplied here. They are only used if "languageId" and "locale" match.
+        dictionaryDefinitions: [
+          {
+            # The name of the dictionary is used to look it up.
+            name: "game",
+            # Path to the custom word file. Relative to this `cspell.json` file.
+            path: "./.cspell/game.txt",
+            addWords: false
+          },
+          {
+            name: "pro",
+            path: "./.cspell/pro.txt",
+            addWords: false
+          },
+          {
+            name: "rule",
+            path: "./.cspell/rule.txt",
+            addWords: false
+          },
+          {
+            name: "yaku",
+            path: "./.cspell/yaku.txt",
+            addWords: false
+          }
+        ]
+    }
+  ]
+}
